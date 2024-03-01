@@ -1,0 +1,25 @@
+#include <stdio.h> //biblioteca
+
+int main() //comando para iniciar
+
+{
+    
+    
+    int valor1, valor2 ; //variaveis, nao comecar com numero e sem espacos
+    
+    int soma = valor1 + valor2; //defina a variavel soma
+    
+    
+    printf ("digite um numero "); //aviso pra digita valor1
+    
+        scanf ("%d", &valor1); //comando pra digitar 1o numero %d, e guarda no valor1
+    
+    printf ("digite outro numero "); //digita o segundo numero
+    
+        scanf ("%d", &valor2); //comando pra digitar 2o numero %d, e guarda no valor2
+    
+    printf ("a soma de %d com %d é %d ", valor1,valor2,soma);
+       
+    
+    return 0; //o return faz com que o programa finalize
+}
